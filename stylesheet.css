@@ -1,0 +1,21 @@
+.header {
+  background-color: #537791;
+}
+
+.title {
+    color: #f7f6e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.title::before,
+.title::after {
+  content: ‘’;
+  width: 60px;
+  height: 5px;
+  background-color: #e3bf00;
+}
+
+.title::before { transform: rotate(60deg)}
+.title::after { transform: rotate(-60deg)}
